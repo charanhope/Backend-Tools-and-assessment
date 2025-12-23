@@ -1,0 +1,175 @@
+# Environment variables (contains sensitive data)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.staging
+.env.production
+.env.test
+
+# HubSpot API credentials and sensitive data
+hubspot_token.txt
+access_token.txt
+*token*
+*credential*
+*secret*
+*key*
+!*example*
+!*template*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.ENV/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.lnk
+*~
+
+# Logs and monitoring
+*.log
+logs/
+loki_logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# DLT specific files
+.dlt/
+dlt_secrets.toml
+dlt_config.toml
+dlt_data/
+.dlt_data/
+
+# Test results and temporary files (may contain sensitive data)
+test-results/
+test_results/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# API test results (may contain HubSpot data or tokens)
+api_test_results.json
+test_results.json
+validation_results.json
+creation_results.json
+final_api_test.json
+created_deals_results.json
+hubspot_test_data.json
+deal_ids.json
+*_results.json
+
+# HubSpot specific test data
+deals_backup.json
+hubspot_deals_export.json
+
+# Docker overrides
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# SSL certificates and keys
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+
+# Local development overrides
+config_local.json
+config_dev.json
+config_prod.json
+local_settings.py
+settings_local.py
+
+# Personal notes (internal development)
+NOTES.md
+TODO.md
+PERSONAL_*.md
+INTERNAL_*.md
+
+# Allow specific configuration examples
+!.env.example
+!config.example.json
+!requirements.txt
+!package.json

@@ -1,0 +1,187 @@
+# Environment variables (contains sensitive data)
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+.env.test
+
+# HubSpot API credentials and tokens
+**/hubspot_token.txt
+**/access_token.txt
+**/*token*
+**/*credential*
+**/*secret*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.ENV/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# DLT specific
+.dlt/
+dlt_data/
+**/.dlt/
+**/dlt_data/
+dlt_secrets.toml
+dlt_config.toml
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Test results and temporary files
+test-results/
+test_results/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# API test results (may contain sensitive data)
+**/api_test_results.json
+**/test_results.json
+**/validation_results.json
+**/creation_results.json
+**/*_results.json
+
+# HubSpot specific test data
+**/created_deals_results.json
+**/hubspot_test_data.json
+**/deal_ids.json
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+
+# Linux
+*~
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+
+# Temporary folders
+node_modules/
+bower_components/
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Personal notes and documentation (internal use)
+NOTES.md
+TODO.md
+PERSONAL_*.md
+INTERNAL_*.md
+TASK_LIST.md
+IMPLEMENTATION_*.md
+COMPLETION_*.md
+
+# Configuration files that might contain sensitive data
+config_local.json
+config_dev.json
+config_prod.json
+*_config_local.*
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.cert
+
+# Local development overrides
+docker-compose.local.yml
+local_settings.py
+settings_local.py
